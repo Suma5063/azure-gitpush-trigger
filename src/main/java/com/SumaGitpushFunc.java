@@ -13,7 +13,7 @@ import com.microsoft.azure.functions.annotation.HttpTrigger;
 
 public class SumaGitpushFunc {
 
-    @FunctionName("suma-gitpush-func")
+    @FunctionName("SumaGitPushFunc")
     public HttpResponseMessage run(
         @HttpTrigger(name = "req", methods = {HttpMethod.GET, HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS) HttpRequestMessage<Optional<String>> request,
         final ExecutionContext context) {

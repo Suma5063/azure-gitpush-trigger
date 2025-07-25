@@ -29,7 +29,7 @@ public class SumaGitpushFunc {
                           .build();
         } else {
             return request.createResponseBuilder(HttpStatus.OK)
-                          .body("Hello, " + name)
+                          .body("Hello, " + name+ " , How are you ?")
                           .build();
         }
     }

@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../GitPushHttpFunc-1.0.0.jar",
+  "entryPoint" : "com.function.SumaGitpushFunc.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "GET", "POST" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
